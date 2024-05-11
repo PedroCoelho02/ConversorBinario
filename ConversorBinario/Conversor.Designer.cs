@@ -1,5 +1,5 @@
 ﻿namespace ConversorBinario {
-    partial class Form1 {
+    partial class Conversor {
         /// <summary>
         ///  Required designer variable.
         /// </summary>

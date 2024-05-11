@@ -1,9 +1,9 @@
 using System.Numerics;
 
 namespace ConversorBinario {
-    public partial class Form1 : Form {
+    public partial class Conversor : Form {
 
-        public Form1() {
+        public Conversor() {
             InitializeComponent();
         }
 
