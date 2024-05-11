@@ -56,9 +56,9 @@
             // 
             // btnConverter
             // 
-            btnConverter.Location = new Point(24, 260);
+            btnConverter.Location = new Point(12, 260);
             btnConverter.Name = "btnConverter";
-            btnConverter.Size = new Size(232, 23);
+            btnConverter.Size = new Size(244, 23);
             btnConverter.TabIndex = 2;
             btnConverter.Text = "Converter";
             btnConverter.UseVisualStyleBackColor = true;
@@ -67,7 +67,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(12, 222);
+            label2.Location = new Point(12, 228);
             label2.Name = "label2";
             label2.Size = new Size(62, 15);
             label2.TabIndex = 3;
@@ -76,15 +76,16 @@
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(142, 222);
+            lblResultado.Location = new Point(145, 228);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(16, 15);
+            lblResultado.Size = new Size(13, 15);
             lblResultado.TabIndex = 4;
-            lblResultado.Text = "...";
+            lblResultado.Text = "0";
             lblResultado.Click += lblResultado_Click;
             // 
             // grpTipoConversor
             // 
+            grpTipoConversor.AutoSize = true;
             grpTipoConversor.Controls.Add(rdnHexaDecimal);
             grpTipoConversor.Controls.Add(rdnDecimalHexa);
             grpTipoConversor.Controls.Add(rdnBinarioHaxa);
@@ -93,10 +94,10 @@
             grpTipoConversor.Controls.Add(rdnBinarioDecimal);
             grpTipoConversor.Location = new Point(12, 41);
             grpTipoConversor.Name = "grpTipoConversor";
-            grpTipoConversor.Size = new Size(244, 170);
+            grpTipoConversor.Size = new Size(244, 184);
             grpTipoConversor.TabIndex = 5;
             grpTipoConversor.TabStop = false;
-            grpTipoConversor.Text = "Tipo de Converter";
+            grpTipoConversor.Text = "Tipo de Conversor";
             // 
             // rdnHexaDecimal
             // 
@@ -145,7 +146,7 @@
             // rdnDecimalBinario
             // 
             rdnDecimalBinario.AutoSize = true;
-            rdnDecimalBinario.Location = new Point(12, 71);
+            rdnDecimalBinario.Location = new Point(12, 22);
             rdnDecimalBinario.Name = "rdnDecimalBinario";
             rdnDecimalBinario.Size = new Size(134, 19);
             rdnDecimalBinario.TabIndex = 1;
@@ -156,7 +157,7 @@
             // rdnBinarioDecimal
             // 
             rdnBinarioDecimal.AutoSize = true;
-            rdnBinarioDecimal.Location = new Point(12, 22);
+            rdnBinarioDecimal.Location = new Point(12, 71);
             rdnBinarioDecimal.Name = "rdnBinarioDecimal";
             rdnBinarioDecimal.Size = new Size(134, 19);
             rdnBinarioDecimal.TabIndex = 0;
